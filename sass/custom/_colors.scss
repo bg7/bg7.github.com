@@ -9,9 +9,49 @@
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
 
+/* oh no sequences! color scheme */
+/* old cyan; name from http://www.colourlovers.com/color/3E7077/old_cyan */
+$OldCyan: #3e7f89;
+$OldCyan-Dark: #266871;
+$OldCyan-Light: #569ca6;
+$OldCyan-Matte: #3e7178;
+$OldCyan-MatteLight: #5f9ea6;
+/* light amber (if someone has a better name for it, I'm all ears) */
+$LightAmber: #dfb862;
+$LightAmber-Dark: #b8913d;
+$LightAmber-Light: #e7c376;
+$LightAmber-Matte: #c3a564;
+$LightAmber-MatteLight: #e7c783;
+/* salmon */
+$Salmon: #df6b62;
+$Salmon-Dark: #b8463d;
+$Salmon-Light: #e77e76;
+$Salmon-Matte: #c36b64;
+$Salmon-MatteLight: #e78a83;
+/* grey */
+$Grey: #585858;
+$Grey-Light: #818181;
+$Grey-Dark: #414141;
+/* off-white */
+$OffWhite: #fdfdfd;
+$OffWhite-Dark: #f4f4f4;
+/////////////////////////////////////////////////////////
+
+// Main Section Colors
+$main-bg: $OffWhite;
+$page-bg: $Grey;
+$article-border: $OffWhite-Dark;
+
+$header-bg: $Grey-Dark;
+$title-color: $OldCyan;
+$subtitle-color: $LightAmber-Light;
+
+// Main Link Colors
+$link-color: $OldCyan;
+
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-//$solarized: light;
+$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
