@@ -38,13 +38,25 @@ $OffWhite-Dark: #f4f4f4;
 /////////////////////////////////////////////////////////
 
 // Main Section Colors
-$main-bg: $OffWhite;
-$page-bg: $Grey;
+$main-bg: $OffWhite-Dark;
+$page-bg: $OffWhite;
 $article-border: $OffWhite-Dark;
 
+// header
 $header-bg: $Grey-Dark;
 $title-color: $OldCyan;
 $subtitle-color: $LightAmber-Light;
+
+// text
+$text-color: Grey;
+$text-color-light: $Grey-Light;
+
+/* Navigation */
+$nav-bg: $OldCyan-Matte;
+$nav-color: darken($nav-bg, 38) !default;
+
+// footer
+$footer-bg: OldCyan-MatteLight;
 
 // Main Link Colors
 $link-color: $OldCyan;
