@@ -53,17 +53,19 @@ $text-color: $Grey;
 $text-color-light: $Grey-Light;
 
 /* Navigation */
-$nav-bg: $OldCyan-Matte;
+$nav-bg: $OldCyan-MatteLight;
+$nav-color: $OldCyan;
 
 // footer
 $footer-bg: $OldCyan-MatteLight;
+$footer-color: $OldCyan;
 
 // Main Link Colors
 $link-color: $OldCyan;
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-$solarized: light;
+//$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
