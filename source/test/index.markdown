@@ -41,6 +41,16 @@ bundle install
 rake install
 ```
 
+
 hey! a local edit! nice.
+
+### this is an h3 ###
+
+And here's a link: [bg7 website](http://bg7.ohnosequences.com). Links are
+
+* useful,
+* and look nice in that smart blueish color.
+
+I guess that's all for the time being.
 
 
