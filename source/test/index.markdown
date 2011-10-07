@@ -51,6 +51,10 @@ And here's a link: [bg7 website](http://bg7.ohnosequences.com). Links are
 * useful,
 * and look nice in that smart blueish color.
 
-I guess that's all for the time being.
+I guess that's all for the time being. Well, let's check if solarized light works for codeblocks
+
+{% codeblock %}
+I like codeblocks. They're simple.
+{% endcodeblock %}
 
 
