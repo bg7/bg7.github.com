@@ -35,6 +35,7 @@ $Grey-Dark: #414141;
 /* off-white */
 $OffWhite: #fdfdfd;
 $OffWhite-Dark: #f4f4f4;
+
 /////////////////////////////////////////////////////////
 
 // Main Section Colors
@@ -48,15 +49,14 @@ $title-color: $OldCyan;
 $subtitle-color: $LightAmber-Light;
 
 // text
-$text-color: Grey;
+$text-color: $Grey;
 $text-color-light: $Grey-Light;
 
 /* Navigation */
 $nav-bg: $OldCyan-Matte;
-$nav-color: darken($nav-bg, 38) !default;
 
 // footer
-$footer-bg: OldCyan-MatteLight;
+$footer-bg: $OldCyan-MatteLight;
 
 // Main Link Colors
 $link-color: $OldCyan;
