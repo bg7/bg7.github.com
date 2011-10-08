@@ -39,8 +39,8 @@ $OffWhite-Dark: #f4f4f4;
 /////////////////////////////////////////////////////////
 
 // Main Section Colors
-$main-bg: $OffWhite-Dark;
-$page-bg: $OffWhite;
+$main-bg: $OffWhite;
+$page-bg: $OffWhite-Dark;
 $article-border: $OffWhite-Dark;
 
 // header
@@ -62,6 +62,7 @@ $footer-color: $OldCyan-Dark;
 
 // Main Link Colors
 $link-color: $OldCyan;
+$link-color-visited: $Salmon-Matte;
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
