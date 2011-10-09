@@ -37,6 +37,9 @@ $OffWhite: #fdfdfd;
 $OffWhite-Dark: #f4f4f4;
 $OffWhite-Matte: #fbfbfb;
 
+/* black */
+$Black-Almost: #232323;
+
 
 /////////////////////////////////////////////////////////
 
@@ -46,7 +49,7 @@ $page-bg: $OffWhite-Dark;
 $article-border: $OffWhite-Dark;
 
 // header
-$header-bg: $OldCyan-Dark;
+$header-bg: $Black-Almost;
 $title-color: $Salmon-MatteLight;
 $subtitle-color: $OffWhite-Dark;
 
