@@ -22,4 +22,4 @@ This is `GPLv3` + further copyleft restrictions.
 Well, it’s key for the subject matter. AGPLv3 means that if you are using bg7, you gain
 
 * no lock-in you have all present and future bg7 code
-) etc etc
+* etc etc
