@@ -37,17 +37,16 @@ $OffWhite: #fdfdfd;
 $OffWhite-Dark: #eaeaea;
 $OffWhite-Darkest: #dedede;
 $OffWhite-Matte: #f9f9f9;
-
+$OffWhite-MatteDark: #f2f2f2;
 /* black */
 $Black-Almost: #333333;
 
-$buh: #92B2B7;
 
 /////////////////////////////////////////////////////////
 
 // Main Section Colors
-$main-bg: $Grey-Dark; //$OffWhite-Matte;
-$page-bg: $OffWhite-Dark;
+$main-bg: $OffWhite-Matte;
+$page-bg: $OffWhite-Darkest;
 $article-border: $OffWhite-Dark;
 
 // header
@@ -64,11 +63,11 @@ $footer-color: $OldCyan-Dark;
 
 
 // Sidebar
-$sidebar-bg: #f2f2f2;
+$sidebar-bg: $OffWhite-MatteDark;
 //$sidebar-color: $OffWhite-Dark;
 
 // text
-$text-color: $OffWhite-Darkest; //$Grey;
+$text-color: $Grey;
 $text-color-light: $Grey-Light;
 
 
