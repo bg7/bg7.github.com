@@ -40,6 +40,7 @@ $OffWhite-Matte: #f9f9f9;
 /* black */
 $Black-Almost: #333333;
 
+$buh: #92B2B7;
 
 /////////////////////////////////////////////////////////
 
@@ -53,13 +54,13 @@ $header-bg: $Black-Almost;
 $title-color: $OldCyan-MatteLight;
 $subtitle-color: $LightAmber-MatteLight;
 
+// Navigation
+$nav-bg: $buh; //$OldCyan-MatteLight;
+//$nav-color: $OldCyan-Dark;
 // footer
 $footer-bg: $OldCyan-MatteLight;
 $footer-color: $OldCyan-Dark;
 
-// Navigation
-$nav-bg: $OldCyan-MatteLight;
-$nav-color: $OldCyan-Dark;
 
 // Sidebar
 $sidebar-bg: #f2f2f2;
