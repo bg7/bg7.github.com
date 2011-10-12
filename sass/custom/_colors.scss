@@ -41,24 +41,21 @@ $OffWhite-MatteDark: #f2f2f2;
 /* black */
 $Black-Almost: #333333;
 
-
-/////////////////////////////////////////////////////////
-
-// Main Section Colors
+/* Main Section Colors */
 $main-bg: $OffWhite-Matte;
 $page-bg: $OffWhite-Darkest;
 $article-border: $OffWhite-Dark;
 
-// header
-$header-bg: $OffWhite-Matte; //$Black-Almost;
-$title-color: $Grey; //$OldCyan;
-$subtitle-color: $Grey-Light; //$LightAmber;
+/* header */
+$header-bg: $Black-Almost;
+$title-color: $OldCyan-Matte;
+$subtitle-color: $LightAmber-Matte;
 
 // Navigation
-$nav-bg: $OldCyan-Matte; //$OldCyan-MatteLight;
+$nav-bg: $OldCyan-MatteLight;
 $nav-color: $OldCyan-MatteLight;
 // footer
-$footer-bg: $OldCyan-Matte; //$OldCyan-MatteLight;
+$footer-bg: $OldCyan-MatteLight;
 $footer-color: $OldCyan-MatteLight;
 
 
@@ -77,7 +74,7 @@ $link-color-visited: $Salmon-Matte;
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
-//$solarized: light;
+$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
