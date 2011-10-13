@@ -32,15 +32,14 @@ $Salmon-MatteLight: #e78a83;
 $Grey: #585858;
 $Grey-Light: #818181;
 $Grey-Dark: #414141;
+$Grey-Darkest: #333333;
 /* off-white */
 $OffWhite: #fdfdfd;
 $OffWhite-Dark: #eaeaea;
 $OffWhite-Darkest: #dedede;
 $OffWhite-Matte: #f9f9f9;
 $OffWhite-MatteDark: #f2f2f2;
-/* black */
-$Black-Almost: #333333;
-$bg-test: $Grey-Dark;
+
 
 /* Main Section Colors */
 $main-bg: $OffWhite-Matte;
@@ -48,7 +47,7 @@ $page-bg: $OffWhite-Darkest;
 $article-border: $OffWhite-Dark;
 
 /* header */
-$header-bg: $bg-test;// $Black-Almost;
+$header-bg: $Grey-Darkest;
 $title-color: $OldCyan-MatteLight;
 $subtitle-color: $LightAmber-Matte;
 
