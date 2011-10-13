@@ -40,6 +40,7 @@ $OffWhite-Matte: #f9f9f9;
 $OffWhite-MatteDark: #f2f2f2;
 /* black */
 $Black-Almost: #333333;
+$bg-test: #143235;
 
 /* Main Section Colors */
 $main-bg: $OffWhite-Matte;
@@ -47,7 +48,7 @@ $page-bg: $OffWhite-Darkest;
 $article-border: $OffWhite-Dark;
 
 /* header */
-$header-bg: $Black-Almost;
+$header-bg: $bg-test;// $Black-Almost;
 $title-color: $OldCyan-MatteLight;
 $subtitle-color: $LightAmber-Matte;
 
