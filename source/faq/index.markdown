@@ -13,7 +13,7 @@ footer: true
 
 We strive to keep dependencies at a minimum: to run bg7 you just need
 
-* **Java** a fairly recent `x64` JVM, anything above `1.6` is ok [oracle/Sun JDK 6u27 download link](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u27-download-440405.html)
+* **Java** a fairly recent `x64` JVM, anything above `1.6` is ok. You can get installers of oracle/Sun JDK-6u27 for a plethora of platforms from [Oracle jdk download website](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u27-download-440405.html)
 
 * **BLAST** we recommend `blast+ 2.2.25`, you can get precompiled binaries from the [NCBI blast ftp site](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
