@@ -21,6 +21,7 @@ We strive to keep dependencies at a minimum: to run bg7 you just need
 
 
 
+
 ## open source ##
 
 We truly believe in open source; but we enjoy more doing things than writing long, grandiose manifests about open science, open data, whatever. So, bg7 is as open source as you can get: AGPLv3 licensed.
