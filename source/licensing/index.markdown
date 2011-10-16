@@ -7,4 +7,4 @@ sharing: true
 footer: true
 ---
 
-
+bg7 license is `AGPLv3`, _Affero General Public License v3_.
