@@ -23,11 +23,23 @@ With the current version, you just need a considerable amount of RAM: anything a
 
 ## license ##
 
+#### what is bg7 license? ####
+
+bg7 is licensed under AGPLv3: [GNU Affero General Public License, version 3](http://www.gnu.org/licenses/agpl.html).
+
 We truly believe in open source; but we enjoy more doing things than writing long, grandiose manifests about open science, open data, whatever. So, bg7 is as open source as you can get: AGPLv3 licensed.
 
-### AGPL _-what?_ ###
+#### AGPL _-what?_ ####
 
-This is `GPLv3` + further copyleft restrictions.
+This is `GPLv3` + further copyleft restrictions. You can read nore about this in [licensing](http://bg7.ohnosequences.com/licensing).
+
+#### can I include/import/use bg7 in my closed-source application x? ####
+
+_Absolutely not_; Any application using bg7 code must be AGPLv3-licensed, and 
+
+#### can I sell something based on / using bg7?? ####
+
+_Yes!_ but remember that you need to provide bg7 source code +  source code of any modifications, software using bg7, etc to your users. See [Selling Free Softare - GNU project](http://www.gnu.org/philosophy/selling.html).
 
 ### why this is important? ###
 
