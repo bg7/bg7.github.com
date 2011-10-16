@@ -19,8 +19,7 @@ We strive to keep dependencies at a minimum: to run bg7 you just need
 
 ### what about hardware requirements? ###
 
-
-
+With the current version, you just need a considerable amount of RAM: anything above `64GB` is ok.
 
 ## open source ##
 
