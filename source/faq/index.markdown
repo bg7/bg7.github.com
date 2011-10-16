@@ -9,7 +9,7 @@ footer: true
 
 ## requirements ##
 
-### What software do I need for running bg7? ###
+#### What software do I need for running bg7? ####
 
 We strive to keep dependencies at a minimum: to run bg7 you just need
 
@@ -17,9 +17,9 @@ We strive to keep dependencies at a minimum: to run bg7 you just need
 
 * **BLAST** we recommend `blast+ 2.2.25`, you can get precompiled binaries from the [NCBI blast ftp site](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
-### what about hardware requirements? ###
+#### what about hardware requirements? ####
 
-With the current version, you just need a considerable amount of RAM: anything above `64GB` is ok.
+With the current version, you just need a considerable amount of RAM: anything above `64GB` is ok. Obviously, this means you need a `64bit` OS.
 
 ## open source ##
 
