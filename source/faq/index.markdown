@@ -23,3 +23,5 @@ Well, it’s key for the subject matter. AGPLv3 means that if you are using bg7,
 
 * no lock-in you have all present and future bg7 code
 * etc etc
+
+
