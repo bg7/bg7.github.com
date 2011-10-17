@@ -9,6 +9,10 @@ footer: true
 
 bg7 license is `AGPLv3`, [_Affero General Public License v3_](http://www.gnu.org/licenses/agpl.html). In short, this is a modified version of GPLv3, adding a clause requiring that the complete source code be made available to any network user of the AGPL-licensed work. And, if you want the shortest version: `AGPLv3` is the most viral, strong copyleft license. 
 
+### what about dual-licensing? ###
+
+
+
 
 
 
