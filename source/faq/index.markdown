@@ -16,7 +16,7 @@ Frequently asked questions; if you have a question not answered here, post a com
 
 ## requirements ##
 
-#### <a id="software-reqs"/> What software do I need for running bg7?  ####
+#### <a id="software-reqs"></a> What software do I need for running bg7?  ####
 
 We strive to keep dependencies at a minimum: to run bg7 you just need
 
