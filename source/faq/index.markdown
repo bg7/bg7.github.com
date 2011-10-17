@@ -12,11 +12,11 @@ Frequently asked questions; if you have a question not answered here, post a com
 ##### table of contents #####
 
 - _requirements_
-	* [What software do I need for running bg7?](#What software do I need for running bg7?)
+	* [What software do I need for running bg7?](#software-reqs)
 
 ## requirements ##
 
-#### What software do I need for running bg7? <a id="What software do I need for running bg7?"/>####
+#### What software do I need for running bg7? <a id="software-reqs"/> ####
 
 We strive to keep dependencies at a minimum: to run bg7 you just need
 
