@@ -7,9 +7,16 @@ sharing: true
 footer: true
 ---
 
+Frequently asked questions; if you have a question not answered here, post a comment at the bottom of this page. We'll try to answer it here as soon as possible.
+
+##### table of contents #####
+
+- _requirements_
+	* [What software do I need for running bg7?](#"What software do I need for running bg7?")
+
 ## requirements ##
 
-#### What software do I need for running bg7? ####
+#### What software do I need for running bg7? <a id="What software do I need for running bg7?"/>####
 
 We strive to keep dependencies at a minimum: to run bg7 you just need
 
@@ -27,7 +34,6 @@ With the current version, you just need a considerable amount of RAM: anything a
 
 bg7 is licensed under AGPLv3: [GNU Affero General Public License, version 3](http://www.gnu.org/licenses/agpl.html).
 
-We truly believe in open source; but we enjoy more doing things than writing long, grandiose manifests about open science, open data, whatever. So, bg7 is as open source as you can get: AGPLv3 licensed.
 
 #### AGPL _-what?_ ####
 
