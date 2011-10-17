@@ -11,8 +11,8 @@ bg7 is brought to you by [Oh no sequences!](http://ohnosequences.com), the R&D g
 
 ## people ##
 
-- [**Raquel Tobes**](http://mendeley.com/rtobes) **
-- [**Pablo Pareja**](http://http://about.me/pablopareja)
-- [**Marina Manrique**]()
-- [**Eduardo Pareja-Tobes**]()
-- [**Eduardo Pareja**]()
+- [**Raquel Tobes**](http://mendeley.com/profiles/raquel-tobes) 
+- [**Pablo Pareja**](http://http://about.me/pablopareja) 
+- [**Marina Manrique**](http://marinamanrique.name)
+- [**Eduardo Pareja-Tobes**](http://eduardo.pareja-tobes.name)
+- [**Eduardo Pareja**](http://www.eduardopareja.name)

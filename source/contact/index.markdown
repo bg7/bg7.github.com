@@ -6,3 +6,5 @@ comments: true
 sharing: true
 footer: true
 ---
+
+There's a lot of ways of getting in touch with the people behind bg7. 
