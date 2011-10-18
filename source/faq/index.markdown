@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Frequently asked questions; if you have a question not answered here, post a comment at the bottom of this page. We'll try to answer it here as soon as possible.
+Frequently asked questions; if you have a question not answered here, post a comment at the bottom of this page: we'll try to answer it here as soon as possible.
 
 #### table of contents ####
 
