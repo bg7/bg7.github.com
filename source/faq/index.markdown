@@ -74,8 +74,10 @@ _Yes!_ but remember that you need to provide bg7 source code +  source code of a
 
 bg7 output is available in the following formats: 
 
-
-
+- GFF3 `.gff` - [GFF3 specs](http://www.sequenceontology.org/gff3.shtml)
+- Genbank `.gbk` - [Genbank specs](http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html)
+- TSV `.tsv` a tab-separated values file
+- XML `.xml`
 
 ## code ##
 
