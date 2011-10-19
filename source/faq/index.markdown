@@ -20,8 +20,12 @@ Frequently asked questions; if you have a question not answered here, post a com
 	* [can I include/import/use bg7 in my closed-source application x?](#bg7-and-closed-source)
 	* [can I sell something based on / using bg7??](#sell-something-based-on-bg7)
 - _bg7 input/output_
+	* [what do I need for annotating my genome?](#bg7-input)
+	* [does bg7 output annotation data in format xyz?](#bg7-output-formats)
 - _running bg7 in the cloud_
 - _code_
+	* [what programming language is bg7 written in?](#bg7-is-written-in)
+	* [where's the code?](#where-is-the-code)
 
 
 ************
@@ -60,6 +64,40 @@ _Absolutely not_; Any application using bg7 code must be AGPLv3-licensed, and
 #### <a id="sell-something-based-on-bg7"></a>can I sell something based on / using bg7?? ####
 
 _Yes!_ but remember that you need to provide bg7 source code +  source code of any modifications, software using bg7, etc to your users. See [Selling Free Softare - GNU project](http://www.gnu.org/philosophy/selling.html).
+
+
+## bg7 input/output ##
+
+#### <a id="bg7-input"></a>what do I need for annotating my genome? ####
+
+#### <a id="bg7-output-formats"></a>does bg7 output annotation data in format xyz? ####
+
+bg7 output is available in the following formats: 
+
+
+
+
+## code ##
+
+#### <a id="bg7-is-written-in"></a>what programming language is bg7 written in? ####
+
+pure Java.
+
+#### <a id="where-is-the-code"></a>where's the code? ####
+
+The code is hosted in github, under the [bg7 organization](http://github.com/bg7); we also do all bg7 development there.
+
+
+
+## biology ##
+
+#### what do you mean by bacterial? ####
+
+#### can I annotate say a fungal genome with bg7? ####
+
+#### what about annotating a human genome? ####
+
+
 
 
 
