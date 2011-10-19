@@ -30,6 +30,10 @@ Frequently asked questions; if you have a question not answered here, post a com
 	* [what do you mean by bacterial?](#what-is-bacterial)
 	* [can I annotate say a fungal genome with bg7?](#annotating-fungal-genomes)
 	* [what about a human genome?](#annotating-human-genomes)
+- _support_
+	* [where can I get help?](#getting-help)
+	* [something's not working; what can I do?](#errors-issues-etc)
+
 
 
 
