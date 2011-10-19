@@ -17,11 +17,21 @@ Instead of relying almost exclusively in start and stop signals as some other pi
 
 #### proteins vs contigs ####
 
-The pipeline is pretty simple; first, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). 
-
 {% img center /images/bg7-design-5.jpg %}
 
-We then have lots of blast hits of the proteins in the contigs, some of them with lots of blast HPSs (High-scoring Segment Pairs). The first thing we do with blast results is merging all the HSPs from a hit to define a single similarity region and then look upstream and downstream for start and stop signals.
+The pipeline is pretty simple; first, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). 
+
+#### CDS definition ####
+
+{% img left /images/bg7-design-6.jpg %}
+{% img left /images/bg7-design-7.jpg %}
+
+We then have lots of blast hits of the proteins in the contigs, some of them with lots of blast HPSs (High-scoring Segment Pairs). 
+
+The first thing we do with blast results is merging all the HSPs from a hit to define a single similarity region. 
+
+
+ then look upstream and downstream for start and stop signals.
 
 //Capture 5 7 y 8 en fila a ser posible please
 
