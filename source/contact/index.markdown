@@ -12,7 +12,7 @@ footer: true
 * **google group**
 * **email** bg7 account: [bg7@ohnosequences.com](mailto:bg7@ohnosequences.com)
 
-### the people behind bg7 ###
+#### the people behind bg7 ####
 
 Most of the time it feels better to communicate with real people. Fortunately, there are lots of ways of getting in touch with the people behind bg7. As general guidelines:
 

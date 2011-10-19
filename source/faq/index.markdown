@@ -27,6 +27,7 @@ Frequently asked questions; if you have a question not answered here, post a com
 	* [what programming language is bg7 written in?](#bg7-is-written-in)
 	* [where's the code?](#where-is-the-code)
 - _biology-related_
+	* [do I need a reference genome](#reference-genome)
 	* [what do you mean by bacterial?](#what-is-bacterial)
 	* [can I annotate say a fungal genome with bg7?](#annotating-fungal-genomes)
 	* [what about a human genome?](#annotating-human-genomes)
@@ -80,6 +81,14 @@ _Yes!_ but remember that you need to provide bg7 source code +  source code of a
 
 #### <a id="bg7-input"></a>what do I need for annotating my genome? ####
 
+you'll need: 
+
+- your genome sequence - FASTA file
+- reference proteins - FASTA file
+- reference RNAs - FASTA file
+- pipeline executiom template - XML file
+- _(only if you want gbk and/or embl output)_ additional info on name of the source, type of genome, etc - XML file
+
 #### <a id="bg7-output-formats"></a>does bg7 output annotation data in format xyz? ####
 
 bg7 output is available in the following formats: 
@@ -103,13 +112,20 @@ The code is hosted in github, under the [bg7 organization](http://github.com/bg7
 
 ## biology ##
 
+#### <a id="reference-genome"></a>do I need a reference genome? ####
+
+_Not at all!_ This system is not based on a ORF predicton step highly dependent on having a close reference genome. That being based on protein similarity, you'll need a set of reference proteins but these proteins don't need to be very close ones: Good results have been achieved in genomes with no close proteins available and the quality of annotations don't seem to depend on whether the reference proteins are close or not.
+
 #### <a id="what-is-bacterial"></a>what do you mean by bacterial? ####
+
+we mean prokaryotes: _bacteria_ and _archaea_
 
 #### <a id="annotating-fungal-genomes"></a>can I annotate say a fungal genome with bg7? ####
 
+bg7 is not initially designed to deal with eukaryote genomes: exons, introns and all that. 
+
+However, you can get something useful by playing with the 4th argument in the _PredictGenes_ module. This argument sets up the maximum difference (400 by default) admitted between the distance of two adjacent Blast HSPs in the query and in the hit. Allowing larger differences could make the system tolerant to introns in the hit.
+
 #### <a id="annotating-human-genomes"></a>what about annotating a human genome? ####
 
-
-
-
-
+We haven't tried bg7 on a higher eukaryote genome yet; maybe it yields something useful.
