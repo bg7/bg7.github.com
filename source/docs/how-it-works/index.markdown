@@ -7,17 +7,19 @@ sharing: true
 footer: true
 ---
 
-bg7 is an annotation system where the ORF prediction step is based on protein similarity. The guiding principle is _Use as much information as you can_. Instead of relying almost exclusively in start and stop signals as some other pipelines do for ORF prediction we rely on the overall similarity of the region to a certain protein. We then look for start/stop signals to define the ORF. If we don't find them (suppose they're pseudogenes or there are lots of sequencing errors) we don't lose the putative ORF, we mark it as such and keep it. 
+#### approach ####
 
-{% img /images/bg7-design-1.jpg %}
+bg7 is an annotation system where the ORF prediction step is based on protein similarity. The guiding principle is _Use as much information as you can_. 
 
-The pipeline is pretty simple. **Here you have an overall description of the main steps 
+{% img right /images/bg7-design-1.jpg %}
 
-//Capture 4**
+Instead of relying almost exclusively in start and stop signals as some other pipelines do for ORF prediction we rely on the overall similarity of the region to a certain protein. We then look for start/stop signals to define the ORF. If we don't find them (suppose they're pseudogenes or there are lots of sequencing errors) we don't lose the putative ORF, we mark it as such and keep it. 
 
-First a set of reference proteins are searched with Blast (tBlastn in particular) in the genome sequence to annotate (one or several contigs, it doesn't matter). 
+#### proteins vs contigs ####
 
-{% img /images/bg7-design-5.jpg %}
+The pipeline is pretty simple; first, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). 
+
+{% img center /images/bg7-design-5.jpg %}
 
 We then have lots of blast hits of the proteins in the contigs, some of them with lots of blast HPSs (High-scoring Segment Pairs). The first thing we do with blast results is merging all the HSPs from a hit to define a single similarity region and then look upstream and downstream for start and stop signals.
 
