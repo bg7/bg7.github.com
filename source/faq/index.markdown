@@ -26,6 +26,12 @@ Frequently asked questions; if you have a question not answered here, post a com
 - _code_
 	* [what programming language is bg7 written in?](#bg7-is-written-in)
 	* [where's the code?](#where-is-the-code)
+- _biology-related_
+	* [what do you mean by bacterial?](#what-is-bacterial)
+	* [can I annotate say a fungal genome with bg7?](#annotating-fungal-genomes)
+	* [what about a human genome?](#annotating-human-genomes)
+
+
 
 
 ************
@@ -93,11 +99,11 @@ The code is hosted in github, under the [bg7 organization](http://github.com/bg7
 
 ## biology ##
 
-#### what do you mean by bacterial? ####
+#### <a id="what-is-bacterial"></a>what do you mean by bacterial? ####
 
-#### can I annotate say a fungal genome with bg7? ####
+#### <a id="annotating-fungal-genomes"></a>can I annotate say a fungal genome with bg7? ####
 
-#### what about annotating a human genome? ####
+#### <a id="annotating-human-genomes"></a>what about annotating a human genome? ####
 
 
 
