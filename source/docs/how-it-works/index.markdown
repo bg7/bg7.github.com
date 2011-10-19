@@ -29,7 +29,7 @@ At this point in the pipeline genes are already defined but... what if in the sa
 
 So, in the first kind of conflicts where several proteins would be annotating the same region, the gene with the protein with a higher similarity to the contig is selected and the rest of them are marked as 'dimissed genes'
 
-{% img /images/bg7-design-9.jpg %}
+{% img left /images/bg7-design-9.jpg %}
 
 And when the overlapping region between two genes is larger than a threshold defined by the user, the gene with the protein with a higher similarity with the contig is selected and the rest are marked as 'dimissed genes'.
 
@@ -37,7 +37,7 @@ And when the overlapping region between two genes is larger than a threshold def
 
 We already have all the genes well defined (not overlapping more than what we want to and with no more than one protein annotating each region). Now it's time to search RNA genes. This is done in a very similar way. Reference RNAs are searched with blastn in the contigs and RNA genes are defined in the same way as protein genes.
 
-{% img /images/bg7-design-11.jpg %}
+{% img right /images/bg7-design-11.jpg %}
 
 RNA genes and proteins selected genes (without the dismissed ones) are integrated in a way that a RNA gene always is chosen over a protein one. So finally we have the complete annotation with protein and RNA genes.
 
