@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-bg7 is a bacterial genome annotation system, developed by [oh no sequences!]() the R&D group at [era7 bioinformatics]. 
+bg7 is a bacterial genome annotation system, developed by [_oh no sequences!_](http://ohnosequences.com) the R&D group at [era7 bioinformatics](http://era7bioinformatics.com). 
 
 Want more info? then
 
