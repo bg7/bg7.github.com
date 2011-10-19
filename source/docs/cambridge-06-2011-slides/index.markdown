@@ -12,7 +12,7 @@ Slides from a talk at _Applied Bioinformatics & Public Health Microbiology 2011_
 ****
 
 
-<object id="__sse8185486" width="510" height="426"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=manriqueappliedbioinformaticspublichealthcambridgejune2011-110602085409-phpapp02&rel=0&stripped_title=bg7-a-new-system-for-bacterial-genome-annotation-designed-for-ngs-data&userName=marina_manrique" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse8185486" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=manriqueappliedbioinformaticspublichealthcambridgejune2011-110602085409-phpapp02&rel=0&stripped_title=bg7-a-new-system-for-bacterial-genome-annotation-designed-for-ngs-data&userName=marina_manrique" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="510" height="426"></embed> </object> 
+<object id="__sse8185486"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=manriqueappliedbioinformaticspublichealthcambridgejune2011-110602085409-phpapp02&rel=0&stripped_title=bg7-a-new-system-for-bacterial-genome-annotation-designed-for-ngs-data&userName=marina_manrique" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse8185486" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=manriqueappliedbioinformaticspublichealthcambridgejune2011-110602085409-phpapp02&rel=0&stripped_title=bg7-a-new-system-for-bacterial-genome-annotation-designed-for-ngs-data&userName=marina_manrique" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="510" height="426"></embed> </object> 
 
 **********
 
