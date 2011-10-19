@@ -7,9 +7,13 @@ sharing: true
 footer: true
 ---
 
-This is example output from ??
+This is example output from a project named `K12`, with...
 
-{% codeblock %}
+#### GFF output ####
+
+first 12 lines from `K12_Annotation_GFF.gff`
+
+{% codeblock K12_Annotation_GFF.gff - first 12 lines %}
 ##gff-version 3
 ##date Thu Feb 17 18:08:53 GMT+00:00 2011
 ##Type genomic DNA
