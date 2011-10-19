@@ -7,9 +7,10 @@ sharing: true
 footer: true
 ---
 
-Slides from 
+Slideshow presenting bg7: main features and design. From
 
 * **BG7, a new system for bacterial genome annotation designed for NGS data** 
+
 [_Applied Bioinformatics & Public Health Microbiology 2011_](https://registration.hinxton.wellcome.ac.uk/display_info.asp?id=227) | 1-3 June 2011 | Wellcome Trust Genome Campus, Hinxton, Cambridge, UK
 
 
