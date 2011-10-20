@@ -83,11 +83,12 @@ _Yes!_ but remember that you need to provide bg7 source code +  source code of a
 
 you'll need: 
 
-- your genome sequence - FASTA file
-- reference proteins - FASTA file
-- reference RNAs - FASTA file
-- pipeline executiom template - XML file
-- _(only if you want gbk and/or embl output)_ additional info on name of the source, type of genome, etc - XML file
+- your genome sequence _- FASTA file_
+- genetic code _- a text file like this one_
+- reference proteins _- FASTA file_
+- reference RNAs _- FASTA file_
+- pipeline executiom template _- XML file_
+- **only for gbk and/or embl output:** additional info on name of the source, type of genome, etc _- XML file_
 
 #### <a id="bg7-output-formats"></a>does bg7 output annotation data in format xyz? ####
 
