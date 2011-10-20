@@ -23,14 +23,16 @@ The pipeline is pretty simple; first, a set of reference proteins are searched w
 
 #### CDS definition ####
 
-{% img left /images/bg7-design-6.jpg %}
-{% img left /images/bg7-design-7.jpg %}
+{% img right /images/bg7-design-6.jpg %}
+{% img right /images/bg7-design-7.jpg %}
 
 We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs). 
 
 First thing we do with blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
 
-Once we have merged coherent HSPs, we look upstream and downstream for start and stop signals, and define (preliminary) genes CDS accordingly. These just defined genes could suffer from a series of deficiencies: non-canonical start/stop codons, intragenic stop codons and/or frameshifts.
+Once we have merged coherent HSPs, we look upstream and downstream for start and stop signals, and define (preliminary) genes CDS accordingly. These just defined genes could suffer from a series of deficiencies: non-canonical start/stop codons, intragenic stop codons and/or frameshifts. We check for all this possibilities, and mark the corresponding genes as such (intragenic stop codon, frameshift, etc). It's important to note that we don't just drop these. 
+
+This is one of the main reasons why this system is so robust to NGS sequencing errors. In 454, for example, frameshifts are pretty common due to indels in homopolymeric regions; substitutions, more common in Illumina sequencing, can make stop codons appear in the middle of a coding sequence. Some other ORF predictors would fail if frameshifts or intragenic stop codons occur (predicting a wrong coding sequence) but bg7, since it relies on the overall protein similarity, can easily handle that.
 
 //Capture 5 7 y 8 en fila a ser posible please
 
