@@ -9,7 +9,7 @@ footer: true
 
 #### approach ####
 
-bg7 is an annotation system where the ORF prediction step is based on protein similarity. The guiding principle is: _use as much information as you can_. 
+bg7 is an annotation system where the ORF prediction step is based on protein similarity. That's the key feature, and follows what we view as our guiding principle: _use as much information as you can_. 
 
 {% img right /images/1_approach.png %}
 
@@ -17,7 +17,7 @@ Instead of relying almost exclusively in start and stop signals (as some other p
 
 Let's go through each of the steps in more detail:
 
-#### proteins vs contigs #### 
+#### proteins vs contigs 
 
 {% img right /images/2_tblastn.png %}
 
@@ -27,9 +27,9 @@ First, a set of reference proteins are searched with Blast (`tBlastn` in this ca
 
 We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs). 
 
-{% img right /images/3_ORF_definition.png %}
-
 First thing we do with blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
+
+{% img right /images/3_ORF_definition.png %}
 
 Once we have merged coherent HSPs, we look upstream and downstream for start and stop signals, and define (preliminary) genes CDS accordingly. These just defined genes could suffer from a series of deficiencies: non-canonical start/stop codons, intragenic stop codons and/or frameshifts. We check for all this possibilities, and mark the corresponding genes as such (intragenic stop codon, frameshift, etc). It's important to note that we don't just drop these. 
 
