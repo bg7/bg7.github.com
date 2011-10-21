@@ -15,6 +15,6 @@ footer: true
 
 #### using bg7 ####
 
-as of know, most documentation is at the bg7 project wiki at github:
+as of now, most documentation is at the bg7 project wiki at github:
 
 * [bg7 wiki](http://github.com/bg7/bg7/wiki)
