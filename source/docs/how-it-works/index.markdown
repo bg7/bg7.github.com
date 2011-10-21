@@ -11,9 +11,9 @@ footer: true
 
 bg7 is an annotation system where the ORF prediction step is based on protein similarity. The guiding principle is: _use as much information as you can_. 
 
-Instead of relying almost exclusively in start and stop signals (as some other pipelines do for ORF prediction) we rely on the overall similarity of the region to a certain protein. We then look for start/stop signals to define the ORF. If we don't find them (suppose they're pseudogenes or there are lots of sequencing errors) we don't lose the putative ORF, we mark it as such and keep it. 
-
 {% img right /images/1_approach.png %}
+
+Instead of relying almost exclusively in start and stop signals (as some other pipelines do for ORF prediction) we rely on the overall similarity of the region to a certain protein. We then look for start/stop signals to define the ORF. If we don't find them (suppose they're pseudogenes or there are lots of sequencing errors) we don't lose the putative ORF, we mark it as such and keep it. 
 
 Let's go through each of the steps in more detail:
 
