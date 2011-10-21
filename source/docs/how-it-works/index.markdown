@@ -17,17 +17,16 @@ Instead of relying almost exclusively in start and stop signals (as some other p
 
 Let's go through each of the steps in more detail:
 
-#### proteins vs contigs 
+#### 1. proteins vs contigs 
 
 {% img right /images/2_tblastn.png %}
 
 First, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). This reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome.
 
-#### CDS definition ####
+#### 2. CDS definition ####
 
-We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs). 
-
-First thing we do with blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
+We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs);
+first thing we do with this blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
 
 {% img right /images/3_ORF_definition.png %}
 
@@ -35,7 +34,7 @@ Once we have merged coherent HSPs, we look upstream and downstream for start and
 
 This is one of the main reasons why this system is so robust to NGS sequencing errors. In 454, for example, frameshifts are pretty common due to indels in homopolymeric regions; substitutions, more common in Illumina sequencing, can make stop codons appear in the middle of a coding sequence. Some other ORF predictors would fail if frameshifts or intragenic stop codons occur (predicting a wrong coding sequence) but bg7, since it relies on the overall protein similarity, can easily handle that.
 
-#### conflict resolution ####
+#### 3. conflict resolution ####
 
 At this point in the pipeline genes are already defined but... what if in the same region of the contig there was more than one reference protein with a blast hit? The next step is solving conflicts like this (where several proteins would be annotating the same region) and the fact that there could be overlapping genes. 
 
