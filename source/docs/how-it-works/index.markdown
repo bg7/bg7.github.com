@@ -47,5 +47,3 @@ We already have all the genes well-defined (not overlapping more than what we wa
 {% img right /images/5_RNA.png %}
 Reference RNAs are searched with blastn in the contigs and RNA genes are defined in the same way as protein genes.
 RNA genes and proteins selected genes (without the dismissed ones) are integrated in a way that a RNA gene always is chosen over a protein one. That's all! we have the complete annotation with protein and RNA genes.
-
-{% img center /images/6_Genome_annotation.png %}
