@@ -19,15 +19,15 @@ Let's go through each of the steps in more detail:
 #### 1. proteins vs contigs 
 
 {% img right /images/2_tblastn.png %}
-First, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). This reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome.
+First, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). These reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome.
 
 #### 2. CDS definition ####
 
-We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs);
-first thing we do with this blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
+We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HSPs (High-scoring Segment Pairs);
+first thing we do with this blast results is merging all the HSPs from a hit to define a single similarity region between the protein and (one translated version of) the contig.
 
 {% img right /images/3_ORF_definition.png %}
-Once we have merged coherent HSPs, we look upstream and downstream for start and stop signals, and define (preliminary) genes CDS accordingly. These just defined genes could suffer from a series of deficiencies: non-canonical start/stop codons, intragenic stop codons and/or frameshifts. We check for all this possibilities, and mark the corresponding genes as such (intragenic stop codon, frameshift, etc). It's important to note that we don't just drop these. 
+Once we have merged coherent HSPs, we look upstream and downstream for start and stop signals, and define (preliminary) genes CDS accordingly. These just defined genes could suffer from a series of deficiencies: non-canonical start/stop codons, intragenic stop codons and/or frameshifts. We check for all these possibilities, and mark the corresponding genes as such (intragenic stop codon, frameshift, etc). It's important to note that we don't just drop these. 
 
 This is one of the main reasons why this system is so robust to NGS sequencing errors. In 454, for example, frameshifts are pretty common due to indels in homopolymeric regions; substitutions, more common in Illumina sequencing, can make stop codons appear in the middle of a coding sequence. Some other ORF predictors would fail if frameshifts or intragenic stop codons occur (predicting a wrong coding sequence) but bg7, since it relies on the overall protein similarity, can easily handle that.
 

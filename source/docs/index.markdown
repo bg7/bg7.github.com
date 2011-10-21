@@ -18,3 +18,5 @@ footer: true
 as of now, most documentation is at the bg7 project wiki at github:
 
 * [bg7 wiki](http://github.com/bg7/bg7/wiki)
+
+bear with us, this is likely to improve in the following days.

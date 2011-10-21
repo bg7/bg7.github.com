@@ -17,7 +17,7 @@ footer: true
 Most of the time it feels better to communicate with real people. Fortunately, there are lots of ways of getting in touch with the people behind bg7. As general guidelines:
 
 * _biology stuff:_ [Raquel Tobes](http://mendeley.com/profiles/raquel-tobes): [@raqueltobes](http://twitter.com/raqueltobes) on twitter || [Marina Manrique](http://marinamanrique.name), [@marina_manrique](http://twitter.com/marina_manrique) on twitter,
-* _code:_ [Pablo Pareja](http://http://about.me/pablopareja), 
-* _aws/cloud/IT things:_ [Eduardo Pareja-Tobes](http://eduardo.pareja-tobes.name)
+* _code:_ [Pablo Pareja](http://http://about.me/pablopareja), [@pablopareja](http://twitter.com/pablopareja) 
+* _aws/cloud/IT things:_ [Eduardo Pareja-Tobes](http://eduardo.pareja-tobes.name), [@eparejatobes](http://twitter.com/eparejatobes) on twitter.
 
 Or just take a look at [who did what](/who-did-what): that should give you more info about who to contact for what you have in mind.
