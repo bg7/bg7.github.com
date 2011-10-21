@@ -11,22 +11,21 @@ footer: true
 
 bg7 is an annotation system where the ORF prediction step is based on protein similarity. The guiding principle is: _use as much information as you can_. 
 
-{% img right /images/bg7-design-1.jpg %}
+{% img right /images/1_approach.png %}
 
 Instead of relying almost exclusively in start and stop signals (as some other pipelines do for ORF prediction) we rely on the overall similarity of the region to a certain protein. We then look for start/stop signals to define the ORF. If we don't find them (suppose they're pseudogenes or there are lots of sequencing errors) we don't lose the putative ORF, we mark it as such and keep it. 
 
 #### proteins vs contigs ####
 
-{% img center /images/bg7-design-5.jpg %}
+{% img right /images/2_tblastn.png %}
 
 The pipeline is pretty simple; first, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). This reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome.
 
 #### CDS definition ####
 
-{% img right /images/bg7-design-6.jpg %}
-{% img right /images/bg7-design-7.jpg %}
-
 We then have lots of blast hits of the proteins in the contigs, some of them with possibly lots of blast HPSs (High-scoring Segment Pairs). 
+
+{% img right /images/3_ORF_definition.png %}
 
 First thing we do with blast results is merging all the HSPs from a hit to define a single similarity region between (one translated version) of the protein and the contig.
 
