@@ -1,4 +1,4 @@
 
 
-bg7 is a bacterial genome annotation system, _specifically designed_ for NGS data. 
+bg7 is a bacterial genome annotation system, specifically designed for NGS data. 
 
