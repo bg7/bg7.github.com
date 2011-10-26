@@ -24,7 +24,9 @@ Here's a nice explanation of AGPLv3, interms of what you can do with AGPLv3 code
 We don't like dual licensing; let's say that it is at the very least confusing. So,
 
 {% blockquote Oh no Sequences!, bg7 licensing %}
+
 bg7 is and will remain open source, AGPLv3-licensed. There will never be a commercial license
+
 {% endblockquote %}
 
 
