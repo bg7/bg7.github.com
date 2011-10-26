@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-* **twitter** there's the [bg7](http://twitter.com/bg7) account
+* **twitter** there's the [bg7](http://twitter.com/BG7_annot) account
 * **github** code, this website, and related projects are under the [bg7 organization](https://github.com/bg7)
 * **google group**
 * **email** bg7 account: [bg7@ohnosequences.com](mailto:bg7@ohnosequences.com)
