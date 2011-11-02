@@ -69,8 +69,8 @@ twitter_follow_button: true
 twitter_show_follower_count: false
 twitter_tweet_button: true
 
-# Google +1
-google_plus_one: true
+# Google Plus
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile

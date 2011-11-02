@@ -9,7 +9,6 @@ footer: true
 
 We truly believe in open source; but we enjoy more doing things than writing long, grandiose manifests about open science, open data, whatever. So,  bg7 is as open source as you can get: AGPLv3 licensed: [_Affero General Public License v3_](http://www.gnu.org/licenses/agpl.html).
 
-
 In short, this is a modified version of GPLv3, adding a clause requiring that the complete source code be made available to any network user of the AGPL-licensed work. And, if you want the shortest version:
 
 - AGPLv3: the most viral, strong copyleft license. 
