@@ -55,7 +55,7 @@ We strive to keep dependencies at a minimum: to run bg7 you just need
 
 #### <a id="hardware-reqs"></a>what about hardware requirements? ####
 
-With the current version, you just need a considerable amount of RAM: anything above `64GB` is ok. Obviously, this means you need a `64bit` OS.
+With the current version, you just need a reasonable amount of RAM: we run it regularly on `c1.xlarge` EC2 instances, which have 7GB of RAM. Obviously, this means you'll need a `64bit` OS.
 
 ## license ##
 
