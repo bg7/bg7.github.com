@@ -26,11 +26,11 @@ We've set up an AWS EC2 AMI to run bg7 in a very easy way _-with just a single c
 ######1 Launch an EC2 instance######
 Launch an instance of this AMI `ohnosequences.public.x64.ebs`. For a normal size bacterial genome (around 4Mb) and a set of around 120.000 proteins we recommend to use a `c1.xlarge` machine, you can try with larger machines like `m2.4xlarge` Follow the instructions of this screencast 
 
-{% video http://player.vimeo.com/video/31839742?title=0&amp;byline=0&amp;portrait=0 400 300 %}
+{% video http://player.vimeo.com/video/31839742 400 300 %}
 
 ######2 Connect to the instance######
 
-{% video http://player.vimeo.com/video/31845636?title=0&amp;byline=0&amp;portrait=0 400 265 %}
+{% video http://player.vimeo.com/video/31845636 400 265 %}
 
 ######3 Download input files ######
 
@@ -97,5 +97,8 @@ You can then run bg7. Remember you need the following input files
 
 
 #### <a id="uniprot-fasta-file"></a>Important note on how the reference proteins FASTA file should be  ####
-Since the system is strongly integrated with Uniprot we strongly recommend that this file is downloaded from Uniprot so the FASTA headers are like this `>sp|P24232|HMP_ECOLI Flavohemoprotein OS=Escherichia coli (strain K12) GN=hmp PE=1 SV=1` where the second token is the protein Uniprot ID 
+Since the system is strongly integrated with Uniprot we strongly recommend that this file is downloaded from Uniprot so the FASTA headers are like this `>sp|P24232|HMP_ECOLI Flavohemoprotein OS=Escherichia coli (strain K12) GN=hmp PE=1 SV=1` where the second token is the protein Uniprot ID.
 
+This video will show you how to get these sequences from Uniprot very easily 
+
+{% video http://player.vimeo.com/video/31912794 400 375 %}
