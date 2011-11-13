@@ -26,11 +26,11 @@ We've set up an AWS EC2 AMI to run bg7 in a very easy way _-with just a single c
 ######1 Launch an EC2 instance######
 Launch an instance of this AMI `ohnosequences.public.x64.ebs`. For a normal size bacterial genome (around 4Mb) and a set of around 120.000 proteins we recommend to use a `c1.xlarge` machine, you can try with larger machines like `m2.4xlarge` Follow the instructions of this screencast 
 
-{% video http://player.vimeo.com/video/31839742 400 300 %}
+<iframe src="http://player.vimeo.com/video/31839742?title=0&amp;byline=0&amp;portrait=0" width="400" height="265" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 ######2 Connect to the instance######
 
-{% video http://player.vimeo.com/video/31845636 400 265 %}
+<iframe src="http://player.vimeo.com/video/31845636?title=0&amp;byline=0&amp;portrait=0" width="400" height="265" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 ######3 Download input files ######
 
