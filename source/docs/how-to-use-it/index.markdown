@@ -11,15 +11,15 @@ footer: true
 
 We've set up an AWS EC2 AMI to run bg7 in a very easy way _-with just a single command_. All you need to have before starting with the annotation is:
 
-* An [Amazon account] (http://aws.amazon.com/) . You have to sign up for [EC2 services] (http://aws.amazon.com/ec2/)
+* An [Amazon account](http://aws.amazon.com/) . You have to sign up for [EC2 services](http://aws.amazon.com/ec2/)
 * The input files:
 	1. The genome you want to annotate
 	2. A FASTA file with the set of reference proteins from Uniprot. [Important note about this file](#uniprot-fasta-file)
 	3. A FASTA file with the set of reference RNAs
-	4. An XML file with external data that will be used to generate the Genbank files. See a teplate of this file here https://raw.github.com/bg7/BG7/master/GenBankExternalData.xml
-	5. The genetic code you want to use. Like this one https://raw.github.com/bg7/BG7/master/genetic_code.txt
+	4. An XML file with external data that will be used to generate the Genbank files. See a template of this file [here] (https://raw.github.com/bg7/BG7/master/GenBankExternalData.xml)
+	5. The genetic code you want to use. Like [this one](https://raw.github.com/bg7/BG7/master/genetic_code.txt)
 	
-[Example files to run an annotation] (https://github.com/downloads/bg7/BG7/bg7_example_input_files.zip)
+[Example files to run an annotation](https://github.com/downloads/bg7/BG7/bg7_example_input_files.zip)
 
 #####Steps to run the annotation#####
 
@@ -59,11 +59,11 @@ bg7 -n Annotation_test -g Escherichia_coli_TY-2482.chromosome.20110616.fa -p EHE
 
 ####How to use bg7 in other servers####
 
-Sure you can also run bg7 in other servers. Here you can take a look at the [requirements] (http://bg7.ohnosequences.com/faq/#software-reqs)
+Sure you can also run bg7 in other servers. Here you can take a look at the [requirements](http://bg7.ohnosequences.com/faq/#software-reqs)
 
 #####Installing bg7##### 
 
-The instalation is indeed pretty straightforward. Just use our installers for [java] (http://resources.ohnosequences.com/ec2/installers/java-latest), [blast] (http://resources.ohnosequences.com/ec2/installers/blast-latest) and [bg7] (http://resources.ohnosequences.com/ec2/installers/bg7-0.9)
+The instalation is indeed pretty straightforward. Just use our installers for [java](http://resources.ohnosequences.com/ec2/installers/java-latest), [blast](http://resources.ohnosequences.com/ec2/installers/blast-latest) and [bg7](http://resources.ohnosequences.com/ec2/installers/bg7-0.9)
 
 The following commands will address the instalation
 
@@ -89,10 +89,10 @@ You can then run bg7. Remember you need the following input files
 	1. The genome you want to annotate
 	2. A FASTA file with the set of reference proteins from Uniprot. [Important note about this file](#uniprot-fasta-file)
 	3. A FASTA file with the set of reference RNAs
-	4. An XML file with external data that will be used to generate the Genbank files. See a teplate of this file here https://raw.github.com/bg7/BG7/master/GenBankExternalData.xml
-	5. The genetic code you want to use. Like this one https://raw.github.com/bg7/BG7/master/genetic_code.txt
+	4. An XML file with external data that will be used to generate the Genbank files. See a template of this file [here] (https://raw.github.com/bg7/BG7/master/GenBankExternalData.xml)
+	5. The genetic code you want to use. Like [this one](https://raw.github.com/bg7/BG7/master/genetic_code.txt)
 	
-[Example files to run an annotation] (https://github.com/downloads/bg7/BG7/bg7_example_input_files.zip)
+[Example files to run an annotation](https://github.com/downloads/bg7/BG7/bg7_example_input_files.zip)
 
 
 
