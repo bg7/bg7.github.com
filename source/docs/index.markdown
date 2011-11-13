@@ -16,7 +16,7 @@ footer: true
 #### using bg7 ####
 
 * [how to use it](how-to-use-it) _- preliminary instructions on how to use it in AWS and in other servers_
-* [bg7 wiki](http://github.com/bg7/bg7/wiki) _- bg7 project wiki with more documentation _
+* [bg7 wiki](http://github.com/bg7/bg7/wiki) _- bg7 project wiki with more documentation_
 
 
 bear with us, this is likely to improve in the following days.
