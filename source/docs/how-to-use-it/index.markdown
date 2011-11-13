@@ -101,4 +101,4 @@ Since the system is strongly integrated with Uniprot we strongly recommend that 
 
 This video will show you how to get these sequences from Uniprot very easily 
 
-{% video http://player.vimeo.com/video/31912794 400 375 %}
+<iframe src="http://player.vimeo.com/video/31912794?title=0&amp;byline=0&amp;portrait=0" width="400" height="375" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
