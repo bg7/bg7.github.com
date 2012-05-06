@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Code"
-date: 2011-10-19 13:19
+date: 
 comments: true
 sharing: true
 footer: true
