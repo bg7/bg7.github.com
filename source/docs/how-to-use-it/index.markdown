@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "How to use bg7 (Preliminary)"
-date: 2011-11-13 12:01
+date: 
 comments: true
 sharing: true
 footer: true
