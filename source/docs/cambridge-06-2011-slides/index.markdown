@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Cambridge June 2011 Slides"
-date: 2011-10-19 13:45
+date: 
 comments: true
 sharing: true
 footer: true

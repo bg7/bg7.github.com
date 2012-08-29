@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "install"
-date: 2011-11-28 14:59
+date: 
 comments: true
 sharing: true
 footer: true

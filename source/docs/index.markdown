@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "documentation"
-date: 2011-10-19 13:17
+date: 
 comments: true
 sharing: true
 footer: true
