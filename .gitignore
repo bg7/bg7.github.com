@@ -11,5 +11,5 @@ source/_stash
 source/stylesheets/screen.css
 vendor
 node_modules
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
