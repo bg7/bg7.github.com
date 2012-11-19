@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[bg7]]></title>
-  <link href="http://bg7.github.com/atom.xml" rel="self"/>
-  <link href="http://bg7.github.com/"/>
-  <updated>2012-08-29T17:10:18+02:00</updated>
-  <id>http://bg7.github.com/</id>
+  <link href="http://bg7.ohnosequences.com/atom.xml" rel="self"/>
+  <link href="http://bg7.ohnosequences.com/"/>
+  <updated>2012-11-19T11:18:41+01:00</updated>
+  <id>http://bg7.ohnosequences.com/</id>
   <author>
     <name><![CDATA[oh no sequences!]]></name>
     
