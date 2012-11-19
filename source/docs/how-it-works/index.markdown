@@ -2,7 +2,7 @@
 layout: page
 title: "How It Works"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---

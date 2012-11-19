@@ -2,7 +2,7 @@
 layout: page
 title: "funding"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---

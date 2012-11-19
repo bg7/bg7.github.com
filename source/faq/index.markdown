@@ -2,7 +2,7 @@
 layout: page
 title: "Faq"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---

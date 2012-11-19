@@ -2,7 +2,7 @@
 layout: page
 title: "Cambridge June 2011 Slides"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---

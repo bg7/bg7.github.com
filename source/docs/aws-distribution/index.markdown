@@ -2,7 +2,7 @@
 layout: page
 title: "Aws Distribution"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---
