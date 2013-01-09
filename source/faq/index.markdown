@@ -22,7 +22,6 @@ Frequently asked questions; if you have a question not answered here, file an is
 - _BG7 input/output_
 	* [what do I need for annotating my genome?](#BG7-input)
 	* [does BG7 output annotation data in format xyz?](#BG7-output-formats)
-- _running BG7 in the cloud_
 - _code_
 	* [what programming language is BG7 written in?](#BG7-is-written-in)
 	* [where's the code?](#where-is-the-code)
