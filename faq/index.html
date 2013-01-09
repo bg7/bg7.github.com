@@ -111,6 +111,7 @@
 
 <ul>
 <li><a href="#reference-genome">do I need a reference genome</a></li>
+<li><a href="#blast-choices">why reference proteins vs contigs?</a></li>
 <li><a href="#what-is-bacterial">what do you mean by bacterial?</a></li>
 <li><a href="#annotating-fungal-genomes">can I annotate say a fungal genome with BG7?</a></li>
 <li><a href="#annotating-human-genomes">what about a human genome?</a></li>
@@ -205,6 +206,12 @@
 <h4><a id="reference-genome"></a>do I need a reference genome?</h4>
 
 <p><em>Not at all!</em> This system is not based on a ORF predicton step highly dependent on having a close reference genome. That being based on protein similarity, you&#8217;ll need a set of reference proteins but these proteins don&#8217;t need to be very close ones: Good results have been achieved in genomes with no close proteins available and the quality of annotations don&#8217;t seem to depend on whether the reference proteins are close or not.</p>
+
+<h4><a id="blast-choices"></a>why reference proteins vs contigs?</h4>
+
+<p>It&#8217;s important to point out that we use BLAST to detect <em>all</em> the putative coding regions along the contigs. So we need to run blast in a way that we can have multiple blast hits (supporting sequence similarity between proteins and contigs) in the same contig, given that we assume we have multiple coding regions in each contig.</p>
+
+<p>A good way to achieve this is having the contigs as database and proteins as queries and setting blast to report only the best blast hit. In this way, each reference protein will have either no blast hit or 1 hit to a particular region in a particular contig (and only one contig) but each contig in the database will have multiple hits (all those reference proteins that had blast hits against it), as many as similar reference proteins are found.</p>
 
 <h4><a id="what-is-bacterial"></a>what do you mean by bacterial?</h4>
 
