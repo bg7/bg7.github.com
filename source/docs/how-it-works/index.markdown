@@ -19,7 +19,11 @@ Let's go through each of the steps in more detail:
 #### 1. proteins vs contigs 
 
 {% img right /images/2_tblastn.png %}
-First, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). These reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome.
+First, a set of reference proteins are searched with Blast (`tBlastn` in this case) in the genome sequence to annotate (one or several contigs, it doesn't matter). These reference proteins are user-selected for each run, and experience shows that they don't necessarily need to come from a reference/similar genome. 
+
+##### why ref proteins vs contigs?
+
+If the proteins are in the database, BLAST limit for the number of hits per query could be insuficient; we can perfectly have hundreds of thousands of hits of a complete chromosome against a database of reference proteins (for example, when the reference set is composed by proteins of the same species as the chromosomal sequence under analysis). If we put reference proteins as query the limits of blast for the number of hits would never be a problem, basically because a given protein would almost never have more than 10 copies or so across the genome.
 
 #### 2. CDS definition ####
 

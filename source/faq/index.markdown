@@ -2,7 +2,7 @@
 layout: page
 title: "Faq"
 date: 
-comments: true
+comments: false
 sharing: true
 footer: true
 ---
@@ -28,6 +28,7 @@ Frequently asked questions; if you have a question not answered here, file an is
 	* [where's the code?](#where-is-the-code)
 - _biology-related_
 	* [do I need a reference genome](#reference-genome)
+	* [why reference proteins vs contigs?](#blast-choices)
 	* [what do you mean by bacterial?](#what-is-bacterial)
 	* [can I annotate say a fungal genome with BG7?](#annotating-fungal-genomes)
 	* [what about a human genome?](#annotating-human-genomes)
@@ -116,6 +117,12 @@ The code is hosted in github, under the [BG7 organization](http://github.com/BG7
 #### <a id="reference-genome"></a>do I need a reference genome? ####
 
 _Not at all!_ This system is not based on a ORF predicton step highly dependent on having a close reference genome. That being based on protein similarity, you'll need a set of reference proteins but these proteins don't need to be very close ones: Good results have been achieved in genomes with no close proteins available and the quality of annotations don't seem to depend on whether the reference proteins are close or not.
+
+#### <a id="blast-choices"></a>why reference proteins vs contigs? ####
+
+It's important to point out that we use BLAST to detect _all_ the putative coding regions along the contigs. So we need to run blast in a way that we can have multiple blast hits (supporting sequence similarity between proteins and contigs) in the same contig, given that we assume we have multiple coding regions in each contig.
+
+A good way to achieve this is having the contigs as database and proteins as queries and setting blast to report only the best blast hit. In this way, each reference protein will have either no blast hit or 1 hit to a particular region in a particular contig (and only one contig) but each contig in the database will have multiple hits (all those reference proteins that had blast hits against it), as many as similar reference proteins are found.
 
 #### <a id="what-is-bacterial"></a>what do you mean by bacterial? ####
 
