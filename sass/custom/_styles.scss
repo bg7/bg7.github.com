@@ -2,6 +2,7 @@
 // Add styles here to make changes without digging in too much
 
 
+
 // no underlines for links
 a {
 	text-decoration: none;
@@ -10,4 +11,23 @@ a {
 // ems with light grey
 body em {
 	color: $text-color-light;
+}
+
+body > nav a {
+  
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #F2F2F2;
+}
+
+body > nav a:visited {
+
+  color: #F2F2F2;
+}
+
+body > header h1 a {
+
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+
 }

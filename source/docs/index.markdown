@@ -13,10 +13,7 @@ footer: true
 * [introductory slideshow](cambridge-06-2011-slides) _- slides from a talk at Applied Bioinformatics & Public Health Microbiology 2011_
 * [FAQ](/faq/) _- not really documentation, but it's worth taking a look_
 
-#### using bg7 ####
+#### using BG7
 
-* [how to use it](how-to-use-it) _- preliminary instructions on how to use it in AWS and in other servers_
-* [bg7 wiki](http://github.com/bg7/bg7/wiki) _- bg7 project wiki with more documentation_
-
-
-bear with us, this is likely to improve in the following days.
+* [install bg7](install) there's really no such thing, as BG7 is just a jar. The only prerequisites/dependencies are a JVM and BLAST.
+* [BG7 wiki](http://github.com/bg7/bg7/wiki) _- BG7 project wiki with more documentation_

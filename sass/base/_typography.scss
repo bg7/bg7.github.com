@@ -1,12 +1,12 @@
 $blockquote: $type-border !default;
-$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+$mono: "Droid Sans Mono", Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 // Fonts
 .heading {
-  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Bitter", Georgia, Times, "Times New Roman", serif;
 }
-.sans { font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif; }
-.serif { font-family: "PT Serif", Georgia, Times, "Times New Roman", serif; }
+.sans { font-family: "Bitter", Georgia, Times, "Times New Roman", serif; }
+.serif { font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
 .mono { font-family: $mono; }
 
 body > header h1 {

@@ -8,6 +8,7 @@ group :development do
   gem 'pygments.rb'
   gem 'RedCloth'
   gem 'haml', '>= 3.1'
+  gem "sass", "3.1"
   gem 'compass', '>= 0.11'
   gem 'rubypants'
   gem 'rb-fsevent'
